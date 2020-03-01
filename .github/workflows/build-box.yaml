@@ -18,3 +18,5 @@ jobs:
       # conflicting dependencies fog-core (~> 1.43.0) and fog-core (= 1.45.0)
       # - name: Install vagrant plugin vbguest
       #   run: vagrant plugin install vagrant-vbguest
+      - name: Provisioning box
+        run: vagrant up
